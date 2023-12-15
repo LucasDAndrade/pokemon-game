@@ -4,8 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin: 50px;
-  background-color: transparent;
-  background-image: url(imagens/mewtwobg.jpg.crdownload) ;
+  background: black url(imagens/mewtwobg.jpg.crdownload) center center no-repeat fixed;
   background-size: cover;
 }
 
@@ -52,4 +51,10 @@ button {
   font-weight: bold;
   margin-top: 20px;
   color: #333;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-repeat: no-repeat;
+  }
 }
