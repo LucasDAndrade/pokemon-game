@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: transparent;
+  background-image: url(imagens/mewtwobg.jpg.crdownload) ;
+  background-size: cover;
+}
+
+button {
+  width: 120px;
+  height: 100px;
+}
+
+button#squi {
+  background-image: url(imagens/squi.png);
+}
+
+button#charma {
+  background-image: url(imagens/charma.png);
+}
+
+button#bulba {
+  background-image: url(imagens/bulba.png);
+}
+
+span.branco {
+  color: white;
+  font-weight: bold;
+  text-shadow: 3px 2px 1px black;
+}
+
+#game {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.138);
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+#mensagem {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}
